@@ -1,0 +1,46 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url("https://i1.wp.com/www.oinkoink.com.mx/wp-content/uploads/2019/07/Do%CC%81lares.jpg?fit=1200%2C671&ssl=1");
+}
+#cabecera{
+    padding: 20px 20px 20px 20px;
+    height: 40px;
+    background-color: #ffffff;
+}
+.frame{
+    width: 80%;
+    height: 300px;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.action-button{
+    padding: 15px;
+    background-color: #8ed348;
+    border-radius: 10px;
+    color: #ffffff;
+    margin:20px;
+}
+.action-button:hover{
+    padding: 15px;
+    background-color: #9f2e2a;
+    border-radius: 10px;
+    color: #ffffff;
+}
+#footer{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: darkgrey;
+    color:#ffffff;
+    padding: 20px;
+    left:0px;
+    bottom: 0px;
+}
